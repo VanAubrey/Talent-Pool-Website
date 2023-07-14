@@ -1,17 +1,25 @@
 <?php
 
-
-
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
-// use App\Http\Requests\SignUpRequest;
-// use App\Models\User;
+
 class SignUpController extends Controller
 {
     public function testsignup(Request $request)
     {
-        print_r($request->all());
+        $username = $request->input('username');
+        $email = $request->input('email');
+        $password = $request->input('password');
+        $confirmPassword = $request->input('confirm_password');
+
+        echo "Username: " . $username . "<br>";
+        echo "Email: " . $email . "<br>";
+        echo "Password: " . $password . "<br>";
+        echo "Confirm Password: " . $confirmPassword . "<br>";
+
+        // print_r($request->($username,$email,$password,$confirmPassword));
+
         return view('register');
     }
 }
-

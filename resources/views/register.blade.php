@@ -26,10 +26,10 @@
 
                 </div>
                 <div class="d-flex flex-column" style="width: 100%;margin-bottom: 30px;">
-                <input class="form-control-lg d-lg-flex" type="Username" name="Username" placeholder="Username" style="width: 70%;margin: auto;border-radius: 8.8px;border-style: solid;border-color: rgb(79,79,79);">
+                <input class="form-control-lg d-lg-flex" type="Username" name="username" placeholder="Username" style="width: 70%;margin: auto;border-radius: 8.8px;border-style: solid;border-color: rgb(79,79,79);">
                 <input class="form-control-lg d-lg-flex" type="email" name="email" placeholder="Email" style="width: 70%;margin: auto;margin-top: 10px;border-radius: 8.8px;border-style: solid;border-color: rgb(79,79,79);">
-                <input class="form-control-lg" type="password" style="margin-top: 10px;max-width: 70%;margin-right: auto;margin-left: auto;width: 70%;border-top-left-radius: 8.8px;border-top-right-radius: 8.8px;border-bottom-right-radius: 8.8px;border-bottom-left-radius: 8.8px;font-family: Archivo, sans-serif;font-size: 18px;border-style: solid;border-color: rgb(79,79,79);" placeholder="Password">
-                <input class="form-control-lg" type="password" style="margin-top: 10px;max-width: 70%;margin-right: auto;margin-left: auto;width: 70%;border-top-left-radius: 8.8px;border-top-right-radius: 8.8px;border-bottom-right-radius: 8.8px;border-bottom-left-radius: 8.8px;font-family: Archivo, sans-serif;font-size: 18px;border-style: solid;border-color: rgb(79,79,79);" placeholder="Confirm Password">
+                <input class="form-control-lg" type="password" name="password" style="margin-top: 10px;max-width: 70%;margin-right: auto;margin-left: auto;width: 70%;border-top-left-radius: 8.8px;border-top-right-radius: 8.8px;border-bottom-right-radius: 8.8px;border-bottom-left-radius: 8.8px;font-family: Archivo, sans-serif;font-size: 18px;border-style: solid;border-color: rgb(79,79,79);" placeholder="Password">
+                <input class="form-control-lg" type="password" name="confirm_password" style="margin-top: 10px;max-width: 70%;margin-right: auto;margin-left: auto;width: 70%;border-top-left-radius: 8.8px;border-top-right-radius: 8.8px;border-bottom-right-radius: 8.8px;border-bottom-left-radius: 8.8px;font-family: Archivo, sans-serif;font-size: 18px;border-style: solid;border-color: rgb(79,79,79);" placeholder="Confirm Password">
                 <div class="d-inline-flex justify-content-between flex-wrap" style="width: 70%;margin: auto;margin-top: 10px;">
                         <div>
                             <div class="form-check">
@@ -41,7 +41,7 @@
                 <div style="width: 70%;height: 100%;margin: auto;margin-top: 30px;">
                 <button class="btn btn-primary d-block w-100" data-bss-hover-animate="pulse" type="submit" style="height: 10%;margin-top: 30px;font-weight: bold;background: var(--bs-pink);font-family: Montserrat, sans-serif;font-size: 19px;border-top-left-radius: 8.8px;border-top-right-radius: 8.8px;border-bottom-right-radius: 8.8px;border-bottom-left-radius: 8.8px;border-color: var(--bs-body-bg);">Sign up</button>
                 
-                </form>
+                   
             
                     <div class="d-xl-flex flex-column justify-content-between align-items-start flex-nowrap justify-content-xl-start align-items-xl-center" style="height: 10px;">
                         <div class="d-xl-flex justify-content-xl-start" style="width: auto;height: 10px;margin: auto;margin-top: 10%;">
@@ -52,7 +52,8 @@
                         </div>
                     </div>
                 </div>
-                
+                </form>
+
             </div>
             
         </div>
