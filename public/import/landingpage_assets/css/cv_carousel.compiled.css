@@ -1,0 +1,9 @@
+.carousel-3d-container .carousel-3d-slide {
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: white;
+  border: 0px solid #f1f1f1;
+}
+.carousel-3d-container .carousel-3d-slide .title {
+  font-size: 22px;
+}

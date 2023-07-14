@@ -1,6 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\SignUpController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,17 +14,34 @@ use Illuminate\Support\Facades\Route;
 |
 */
 /* Hompage*/
+use Illuminate\Support\Facades\Route;
+
 Route::get('/', function () {
     return view('homepage');
 });
+
+
 
 Route::get('/homepage', function () {
     return view('homepage');
 });
 
+Route::get('/register', function () {
+    return view('register');
+});
+
+
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::get('/user',[UserController::class,'test1']);
+Route::get('signup',[SignUpController::class,'testsignup']);
+Route::post('signup',[SignUpController::class,'testsignup']);
+
+
+
+
 
 
 

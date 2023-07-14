@@ -1,0 +1,72 @@
+.desc {
+  padding: 20px;
+}
+
+.slant {
+  position: relative;
+}
+
+.cv1 {
+  position: absolute;
+  right: 400px;
+  top: 100px;
+  width: 200px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  perspective: 200px;
+  transform-origin: 50% 50% 0;
+  transform-style: preserve-3d;
+  transform: rotateX(45deg) rotateZ(45deg);
+  box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
+  transition: all .5s ease-in-out;
+}
+
+.cv1@media (max-width: 450px) {
+  transform: rotateX(0deg) rotateZ(0deg);
+  position: static;
+}
+
+.cv2@media (max-width: 450px) {
+  transform: rotateX(0deg) rotateZ(0deg);
+  position: static;
+}
+
+.cv1:hover {
+  box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+  transform: translate(0,15px);
+}
+
+.cv2 {
+  position: absolute;
+  right: 490px;
+  top: 90px;
+  width: 120px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  perspective: 300px;
+  transform-origin: 50% 50% 0;
+  transform-style: preserve-3d;
+  transform: rotateX(45deg) rotateZ(45deg);
+  box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
+  transition: all .5s ease-in-out;
+}
+
+.cv2@media (max-width: 450px) {
+  transform: rotateX(0deg) rotateZ(0deg);
+  position: static;
+}
+
+.cv2:hover {
+  box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+  transform: translate(0,15px);
+}
+
+.container-fluid {
+  position: absolute;
+  margin: 0;
+  right: 10px;
+  top: 460px;
+}
+
