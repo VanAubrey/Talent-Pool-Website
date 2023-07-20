@@ -15,7 +15,7 @@
           <div class="forms-wrap">
             <form action="homepage.html" autocomplete="off" class="sign-in-form">
               <div class="logo">
-                <img src="{{asset('import/assets/img/zionlab-logo.png')}}" alt="zionlablogos" />
+                <img src="{{asset('import/assets/img/zionlab-logo.png')}}" alt="zionlablogo" />
                 <h4>Zionlab IT Consultancy</h4>
               </div>
 
