@@ -14,7 +14,8 @@
 
    
 
-    <div class="d-lg-flex flex-column justify-content-lg-start col-sm-6 col-md-4" style="margin: auto;background: var(--bs-body-bg);width: 40%;margin-top: auto;margin-bottom: auto;margin-left: auto;border-top-left-radius: 0px;border-top-right-radius: 0;border-bottom-right-radius: 0;border-bottom-left-radius: 0px;border-color: var(--bs-purple);height: 40rem;margin-right: auto;">
+    <div class="d-lg-flex flex-column justify-content-lg-start col-sm-6 col-md-4" style="margin: auto;background: var(--bs-body-bg);width: 90%;margin-top: auto;margin-bottom: auto;margin-left: auto;border-top-left-radius: 0px;border-top-right-radius: 0;border-bottom-right-radius: 0;border-bottom-left-radius: 0px;border-color: var(--bs-purple);height: 40rem;margin-right: auto;">
+        
         <div class="d-xxl-flex justify-content-xxl-center" style="margin: auto;width: 100%;height: 100%;padding-top: 10%;padding-bottom: 20%;border-style: none;">
             <div style="margin: auto;width: 100%;">
                 <a href="{{url('homepage')}}" style="text-decoration:none;"><div class="d-xl-flex justify-content-xl-end" style="width: 85%;margin-bottom: 10%;">  <button class="item-2"></button></div></a>
